@@ -14,15 +14,8 @@ This project explores industrial anomaly detection using Robust Distribution Ali
 - data/ — Main MVTec-AD dataset.
 
 ## Dataset Layout
-data/
-└── bottle/
-    ├── train/
-    │   └── good/
-    ├── test/
-    │   ├── good/
-    │   └── <defect_type>/
-    └── ground_truth/
-        └── <defect_type>/
+<img width="535" height="510" alt="image" src="https://github.com/user-attachments/assets/81bb9386-6630-4e85-97a8-ec363e6d8cfb" />
+
 
 ## Environmental Setup
 pip install torch torchvision numpy pandas scikit-learn matplotlib seaborn opencv-python pillow imagecorruptions scikit-image openpyxl jupyter
